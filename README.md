@@ -1,6 +1,6 @@
 # Peepl Code Test - Client Management API
 
-REST API untuk manajemen client dengan fitur CRUD, Redis caching, dan S3 file upload.
+REST API untuk manajemen client dengan fitur CRUD, dan Redis caching.
 
 ## Table of Contents
 
@@ -22,7 +22,6 @@ REST API untuk manajemen client dengan fitur CRUD, Redis caching, dan S3 file up
 - **PostgreSQL** - Database utama
 - **Redis** - Caching layer
 - **Maven** - Build tool
-- **Lombok** - Mengurangi boilerplate code
 
 ## Build dan Run
 
@@ -69,7 +68,7 @@ mvn spring-boot:run
     "isProject": "0",
     "selfCapture": "1",
     "clientPrefix": "CONT",
-    "clientLogo": "https://bucket-name.s3.amazonaws.com/uuid.jpg",
+    "clientLogo": "blablabla.jpg",
     "address": "Jl. Contoh No. 123",
     "phoneNumber": "021-12345678",
     "city": "Jakarta",
